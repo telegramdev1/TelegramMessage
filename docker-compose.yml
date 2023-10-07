@@ -1,0 +1,13 @@
+version: "3"
+services:
+  tgmessage-app:
+    image: telegramdev/tgmessage:latest
+    ports:
+      - "80:80"
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_HOST=127.0.0.1
+    volumes:
+      - ./html:/usr/share/nginx/html
+      - ./app:/app
+    privileged: true
