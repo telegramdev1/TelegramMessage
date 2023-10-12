@@ -24,3 +24,5 @@
 #### 注意事项
 * 本系统还处于初级阶段，telegram对于发送消息有限制，过于频繁的向不同用户发送会导致账号被锁定，因此建议设定低频关键字
 * 运行start.sh之前一定要先运行get_group_id.py脚本登录telegram账号并获取账号加入的群组id
+
+## 详细教程可参考文章[https://zhuanlan.zhihu.com/p/660339299](https://zhuanlan.zhihu.com/p/660339299)
